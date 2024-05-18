@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Kaneki';
+    src: url('/font/Vampire\ Wars.ttf') format('truetype');
+}
+
+:root{
+    --cor0:#990101ec;
+    --cor1:#F2F2F2;
+    --cor2:#BF0404;
+    --cor3:#D95964;
+    --cor4:#BF212E;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-header: "Montserrat", sans-serif;
+    --font-titulo: 'Kaneki',sans-serif;
+ 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--font-padrao);
+    background-image: url('/image/fundo.jpg');
+    background-repeat: calc(auto);
+    background-size: 100%;
+}
+.header{
+    font-family:var(--font-titulo);
+    background-image: linear-gradient(to bottom,var(--cor2),var(--cor0));
+    padding: 20px; 
+    min-height: 150px;
+}
+.titulo-header{
+    color: white;
+    text-align: center;
+    font-size: 2.4em;
+    margin: 10px 0 30px 0;
+}
+.paragrafo-header{
+    color: white;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.link{
+    margin: auto;
+    max-width: 350px;
+}
+.link-header{
+    color: white;
+    margin:0 13px 0 20px;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+.link-header:hover{
+    text-decoration: underline;
+    background-color: rgb(243, 45, 45);
+    padding: 10px;
+    border-radius: 10px;
+}
+.main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 0 0 10px 10px;
+}
+.titulo-main{
+    font-family: var(--font-titulo);
+    margin-top: 20px;
+    color: var(--cor2);
+    background-image: linear-gradient(to right,transparent,red);
+    padding-left: 10px;
+}
+.paragrafo-article{
+    text-align: justify;
+    margin: 20px 0;
+    padding: 0 5px;
+    text-indent: 30px;
+    line-height: 2em;
+}
+strong{
+    background-color: var(--cor2);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+   
+}
+.imagem{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.subtitulo{
+    font-family: var(--font-titulo);
+    margin-top: 20px;
+    color: var(--cor2);
+    background-image: linear-gradient(to right,transparent,red);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.video{
+    background-color: red;
+    position: relative;
+    padding: 29%;
+}
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
