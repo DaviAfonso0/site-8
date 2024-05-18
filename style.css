@@ -109,6 +109,7 @@ strong{
     background-color: red;
     position: relative;
     padding: 29%;
+    margin-bottom: 30px;
 }
 .video > iframe{
     position: absolute;
@@ -116,4 +117,42 @@ strong{
     left: 5%;
     height: 90%;
     width: 90%;
+}
+.aside{
+    background-color: rgb(235, 114, 114);
+    border-radius: 5px;
+    padding: 10px;
+}
+.titulo-lista{
+    color: white;
+    border-radius: 5px;
+    background-color: #f31d1de0;
+    margin: -10px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+.lista{
+    list-style-type: none;
+}
+.li-lista{
+    margin-bottom: 10px;
+}
+.subtitulo-lista{
+    color: rgb(3, 2, 2);
+    margin-bottom: 4px;
+    padding-left: 4px;
+}
+.paragrafo-lista{
+    line-height: 1.4em;
+    text-align: justify;
+    text-indent: 10px;
+}
+.footer{
+    background-image: linear-gradient(to bottom,var(--cor2),var(--cor0));
+    padding: 10px;
+}
+.paragrafo-footer{
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
