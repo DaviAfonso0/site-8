@@ -24,9 +24,13 @@
 
 body{
     font-family: var(--font-padrao);
-    background-image: url('/image/fundo.jpg');
-    background-repeat: calc(auto);
-    background-size: 100%;
+    background-color: black;
+    background-image: url('/site/image/fundo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 .header{
     font-family:var(--font-titulo);
